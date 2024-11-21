@@ -1,0 +1,132 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: medium;
+}
+
+header {
+    display: flex;
+    background-color: #6a3460;
+}
+
+.voyage {
+    display: flex;
+    left: 0px;
+}
+
+img {
+    display: flex;
+    width: 109.09px;
+    height: 100px;
+    left: 110px;
+
+}
+
+#navbar {
+    display: flex;
+    top: 0px;
+    right: 10px;
+    gap: 20px;
+
+}
+#navbar :hover {
+    color: white;
+}
+main {
+}
+
+.maincontainer {
+    display: flex;
+}
+
+#hero {
+    display: flex;
+    background-image: url(./santorini.jpg);
+    width: 1440px;
+    height: 670px;
+    top: 101px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+#text {
+    display: block;
+    margin: 20px;
+    width: 507px;
+    height: 101.15px;
+    top: 263px;
+    left: 40px;
+    background-color: #6a3460;
+    color: white;
+  
+
+
+}
+
+#choix {
+    background-color: #e4dce2;
+    color: white;
+    gap: 100px;
+    display: flex;
+    font-family: "Open Sans", serif;
+
+}
+#voyageur {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+#voyageur :hover {
+    background-color: #6a3460;
+}
+button {
+    display: flex;
+    margin: auto;
+    width: 50%px;
+    height: 20px;
+    top: 1228.11px;
+    left: 594px;
+    background-color: #6a3460;
+    
+}
+button :hover {
+    background-color: purple;
+    color: white;
+    transition: duration 1s; ;
+}
+.parallax {
+    display: flex;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./holiday.jpg);
+    height: 240px;
+    width: 1440px;
+
+
+
+}
+.bye {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 267.99px;
+    top: 1400.01px;
+    left: 547px;
+    margin: auto;
+
+}
+footer {
+    background-color: #6a3460;
+    display: flex;
+    width: 1440px;
+    height: 550px;
+    top: 1398px;
+
+}
