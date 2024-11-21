@@ -6,11 +6,13 @@ body {
 header {
     display: flex;
     background-color: #6a3460;
+    width:  939px;
 }
 
 .voyage {
     display: flex;
     left: 0px;
+    gap: 500px;
 }
 
 img {
@@ -22,14 +24,17 @@ img {
 }
 
 #navbar {
+    color: white;
     display: flex;
+    flex-wrap: wrap;
     top: 0px;
     right: 10px;
     gap: 20px;
 
 }
+
 #navbar :hover {
-    color: white;
+    color: black;
 }
 main {
 }
@@ -112,7 +117,7 @@ button :hover {
 
 
 }
-.bye {
+#bye {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -130,3 +135,6 @@ footer {
     top: 1398px;
 
 }
+
+
+
