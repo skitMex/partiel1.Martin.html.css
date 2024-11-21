@@ -1,0 +1,14 @@
+@media screen and (max-width : 1024px) 
+{
+    #main_container{
+        width: 80%;
+        padding: 5%;
+    }
+}
+
+@media screen and(max-width : 768px) 
+{
+    #main_container{
+        width: 50%;
+    }
+}
